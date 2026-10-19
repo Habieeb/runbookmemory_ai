@@ -1,0 +1,36 @@
+
+# Local incident data and transcripts
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+credentials
+secrets.json
+
+# Python and local environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local model weights and backups
+*.safetensors
+*.gguf
+*.before_*
+*.bak
+
+# Development backups
+*.backup
+*_backup.py
+*.after_*_backup

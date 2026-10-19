@@ -1,0 +1,6 @@
+streamlit
+fastapi
+uvicorn
+psutil
+boto3
+strands-decider==0.1.0
